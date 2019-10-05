@@ -3,6 +3,40 @@
 	margin: 0;
 }
 
+
+body{
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+background-size: 400% 400%;
+
+-webkit-animation: gradientBG 10s ease infinite;
+	        animation: gradientBG 10s ease infinite;
+}
+
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .wrapper {
     width: 100%;
 }
@@ -34,6 +68,7 @@
     margin: auto; 
     padding-bottom: 20px;
     border-radius: 5px;
+    background-color: white;
 }
 
 .img-info h1{
@@ -62,6 +97,7 @@
     padding: 10px 10px 0px ;
     /*object-fit: fill;*/
 }
+
 
 
 @media only screen and (min-width: 768px){
